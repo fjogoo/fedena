@@ -14,6 +14,14 @@ test: &test
       username: root
       password: foradian
 
+test: &tester
+      host: sapmain
+      adapter: s4hana
+      database: whaTYouDnTNIDTOKNOW
+      port: 889255
+      username: francoisvrijmoedig
+      password: GoeXpe!Tt*KUu^T@nd@r1!z0Y@5U5eCr6t@Cc@55D@n1%d      
+
 production:
       host: localhost
       adapter: mysql
