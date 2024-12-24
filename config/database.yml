@@ -5,7 +5,7 @@ development:
       port: 3306
       username: root
       password: foradian
-
+/*******************DONT TRY THIS***********************/
 test: &test
       host: localhost
       adapter: mysql
@@ -13,7 +13,7 @@ test: &test
       port: 3306
       username: root
       password: foradian
-
+/*******************DONT TRY THIS***********************/
 test: &tester
       host: sapmain
       adapter: s4hana
